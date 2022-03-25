@@ -14,6 +14,7 @@ First, let's start with some calculations on a list of prices for 5 loans.
 """
 loan_costs = [500, 600, 200, 1000, 450]
 
+# we want to get number to be used later for....
 # How many loans are in the list?
 # @TODO: Use the `len` function to calculate the total number of loans in the list.
 # Print the number of loans from the list
@@ -124,7 +125,8 @@ new_loan = {
 #    The function should return the `present_value` for the loan.
 # YOUR CODE HERE!
 
-def calculate_present_value (future_value,remianing_months,annual_discount_rate):
+# ramaining_months spelled wrong
+def calculate_present_value (future_value,remaining_months,annual_discount_rate):
     present_value = future_value/((1+annual_discount_rate/12)**remaining_months)
     return present_value
 
@@ -207,7 +209,7 @@ Output this list of inexpensive loans to a csv file
 header = ["loan_price", "remaining_months", "repayment_interval", "future_value"]
 
 # Set the output file path
-output_path = Path("inexpensive_loans.csv")
+output_path = Path("github_upload/inexpensive_loans.csv")
 
 # @TODO: Use the csv library and `csv.writer` to write the header row
 # and each row of `loan.values()` from the `inexpensive_loans` list.
