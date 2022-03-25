@@ -135,7 +135,7 @@ def calculate_present_value (future_value,remaining_months,annual_discount_rate)
 #    Use an `annual_discount_rate` of 0.2 for this new loan calculation.
 # YOUR CODE HERE!
 present_value = calculate_present_value(new_loan["future_value"],new_loan["remaining_months"],0.2)
-print(f"The present value of the new loan is: {present_value}")
+print(f"The present value of the new loan is: {present_value: .2f}")
 
 
 """Part 4: Conditionally filter lists of loans.
@@ -209,7 +209,7 @@ Output this list of inexpensive loans to a csv file
 header = ["loan_price", "remaining_months", "repayment_interval", "future_value"]
 
 # Set the output file path
-output_path = Path("github_upload/inexpensive_loans.csv")
+output_path = Path("inexpensive_loans.csv")
 
 # @TODO: Use the csv library and `csv.writer` to write the header row
 # and each row of `loan.values()` from the `inexpensive_loans` list.
