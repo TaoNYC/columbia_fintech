@@ -6,6 +6,7 @@ This is a command line application to match applicants with qualifying loans.
 Example:
     $ python app.py
 """
+import csv
 import sys
 import fire
 import questionary
@@ -47,7 +48,7 @@ def get_applicant_info():
     """
 
     credit_score = questionary.text("What's your credit score?").ask()
-    debt = questionary.text("What's your current amount of monthly debt?").ask()
+    debt = questionary.text("What's your curren55t amount of monthly debt?").ask()
     income = questionary.text("What's your total monthly income?").ask()
     loan_amount = questionary.text("What's your desired loan amount?").ask()
     home_value = questionary.text("What's your home value?").ask()
@@ -111,6 +112,15 @@ def save_qualifying_loans(qualifying_loans):
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
 
+    header_output_file = ['Lender','Max Loan Amount','Max LTV','Max DTI','Min Credit Score','Interest Rate']
+    output_path = Path("qualifying_loans.csv")
+    with open(output_path,'w',newline='') as csvfile:
+        csvwriter = csv.writer(csvfile)
+        #first, write header into csv file
+        csvwriter.writerow(header_output_file)
+        for row in qualifying_loans:
+            csvwriter.writerow(row)
+
 
 def run():
     """The main function for running the script."""
@@ -125,6 +135,8 @@ def run():
     qualifying_loans = find_qualifying_loans(
         bank_data, credit_score, debt, income, loan_amount, home_value
     )
+
+    print(f'The list of qualifying loans are: {qualifying_loans}')
 
     # Save qualifying loans
     save_qualifying_loans(qualifying_loans)
