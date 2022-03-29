@@ -113,11 +113,18 @@ def save_qualifying_loans(qualifying_loans):
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
 
+    # Below is asking user whether he want to save results and save answer to variable 'whether_to_save_results'
+    whether_to_save_results = questionary.confirm("Would you like to save the result?").ask()
+    print(f'User wants to save the results: {whether_to_save_results}')
+
     header_output_file = ['Lender','Max Loan Amount','Max LTV','Max DTI','Min Credit Score','Interest Rate']
     output_path = Path("qualifying_loans.csv")
     
+    if whether_to_save_results == True:
     # Question: do I need 'return' here just like load_bank_data function above?
-    save_csv(qualifying_loans,output_path,header_output_file)
+        save_csv(qualifying_loans,output_path,header_output_file)
+    else: 
+        print(f'EXIT: User does not wish to save the results')
     
 
 
