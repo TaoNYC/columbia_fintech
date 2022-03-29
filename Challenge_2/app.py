@@ -2,6 +2,7 @@
 """Loan Qualifier Application.
 
 This is a command line application to match applicants with qualifying loans.
+#comment
 
 Example:
     $ python app.py
@@ -12,7 +13,7 @@ import fire
 import questionary
 from pathlib import Path
 
-from qualifier.utils.fileio import load_csv
+from qualifier.utils.fileio import load_csv, save_csv
 
 from qualifier.utils.calculators import (
     calculate_monthly_debt_ratio,
@@ -114,12 +115,10 @@ def save_qualifying_loans(qualifying_loans):
 
     header_output_file = ['Lender','Max Loan Amount','Max LTV','Max DTI','Min Credit Score','Interest Rate']
     output_path = Path("qualifying_loans.csv")
-    with open(output_path,'w',newline='') as csvfile:
-        csvwriter = csv.writer(csvfile)
-        #first, write header into csv file
-        csvwriter.writerow(header_output_file)
-        for row in qualifying_loans:
-            csvwriter.writerow(row)
+    
+    # Question: do I need 'return' here just like load_bank_data function above?
+    save_csv(qualifying_loans,output_path,header_output_file)
+    
 
 
 def run():
