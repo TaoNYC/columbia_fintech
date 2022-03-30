@@ -114,16 +114,16 @@ def save_qualifying_loans(qualifying_loans):
     # YOUR CODE HERE!
 
     # Below is asking user whether he want to save results and save answer to variable 'whether_to_save_results'
-    # Below variable is defined so that it can be used in if-else statement later that if it equals 0, exit and informing the client there is no loan found
     number_of_qualified_loans = len(qualifying_loans)
     print(f'the number of qualified loans is {number_of_qualified_loans}')
 
 
     header_output_file = ['Lender','Max Loan Amount','Max LTV','Max DTI','Min Credit Score','Interest Rate']
     
-    # The logice here is: first check if user wants to save the ouput, if not, print exit statement
-    # If user wants to save csv file, check if number of qualified loans is greater than 0, if not, print exit statement
-    # if nubmer of qualified loans is greater than 0, ask user to type in output path (csv) and save the results
+    # The logice here is: first check check if number of qualified loans is greater than 0, if not, print exit statement
+    # If qualifited loans greater than 0, check if user wants to save the ouput, if not, print exit statement
+    # if user wants to save the ouput, ask user to type in output path (csv) and save the results
+    # variable "whether_to_save_results" (take user input) is defined so that it can be used in if-else statement later that if it equals 0, exit and informing the client there is no loan found
 
 
     if number_of_qualified_loans >0:
