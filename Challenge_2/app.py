@@ -114,8 +114,6 @@ def save_qualifying_loans(qualifying_loans):
     # YOUR CODE HERE!
 
     # Below is asking user whether he want to save results and save answer to variable 'whether_to_save_results'
-    whether_to_save_results = questionary.confirm("Would you like to save the result?").ask()
-    print(f'User wants to save the results: {whether_to_save_results}')
     # Below variable is defined so that it can be used in if-else statement later that if it equals 0, exit and informing the client there is no loan found
     number_of_qualified_loans = len(qualifying_loans)
     print(f'the number of qualified loans is {number_of_qualified_loans}')
@@ -127,14 +125,18 @@ def save_qualifying_loans(qualifying_loans):
     # If user wants to save csv file, check if number of qualified loans is greater than 0, if not, print exit statement
     # if nubmer of qualified loans is greater than 0, ask user to type in output path (csv) and save the results
 
-    if whether_to_save_results == True:
+
+    if number_of_qualified_loans >0:
+        whether_to_save_results = questionary.confirm("Would you like to save the result?").ask()
     # Question: do I need 'return' here just like load_bank_data function above?
-        if number_of_qualified_loans >0:
+        if whether_to_save_results == True:
             output_path = questionary.text("Enter a file path to save the results (.csv):").ask()
             save_csv(qualifying_loans,output_path,header_output_file)
-        else: print(f'Sorry, we did not find any qualifying loans, modify input and try again')
+        else: 
+            print(f'EXIT: User does not wish to save the results')
+
     else: 
-        print(f'EXIT: User does not wish to save the results')
+        print(f'Sorry, we did not find any qualifying loans, modify input and try again')
     
 
 
