@@ -1,22 +1,41 @@
 # Project Title
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+This is a Python application allowing users to check what kind of loans they qualify for (if any) from the bank loan list and also be able to save the results in a csv file for future use (if user chooses to). The application works by asking user to input their personal info (credit score, debt, income, etc...) which is used to filter through the bank data loaded from `daily_rate_sheet.csv`, the result of qulaified loans (if any found) will be saved (if user choose to) in the output csv file (to be specified by user)
 
 ---
 
 ## Technologies
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+This project leverages python 3.7 +, fire, questionary, pathlib
+
 
 ---
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+Before running the application, first make sure below libaries are installed
+
+```python
+  pip install fire
+  pip install questionary
+
+```
+Alerternatively you can simply just install requirement file included in this folder
+```python
+  pip install -r requirement.txt
+
+```
 
 ---
 
 ## Usage
+
+```python
+python app.py
+```
+By finishing launching the app application you should see beow output in the csv file.
+
+<img width="706" alt="image" src="https://user-images.githubusercontent.com/99616004/161436456-40f31e4a-6427-449f-a9da-e33e925e62bc.png">
 
 This section should include screenshots, code blocks, or animations explaining how to use your project.
 
@@ -24,10 +43,11 @@ This section should include screenshots, code blocks, or animations explaining h
 
 ## Contributors
 
-In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
+Brought to you by TaoNYC.
+connorchen7@gmail.com
 
 ---
 
 ## License
 
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
+Columbia Fintech Coding Bootcamp

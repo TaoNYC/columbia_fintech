@@ -1,0 +1,1002 @@
+   50  cd test
+   51  ls
+   52  touch sample168.txt
+   53  ls
+   54  mv sample168.txt sample268
+   55  ls
+   56  cd ..
+   57  mkdir git
+   58  cd ..
+   59  ls
+   60  mkdir git
+   61  ls
+   62  cd git
+   63  ls
+   64  cd ~/test
+   65  ls
+   66  cd ~/desktop/test
+   67  ls
+   68  cd ~/git
+   69  git clone git@github.com:TaoNYC/codingdemo.git
+   70  open .
+   71  open .
+   72  ls
+   73  cd codingdemo
+   74  ls
+   75  cd ..
+   76  cd codingdemo/
+   77  cd git
+   78  ls
+   79  cd codingdemo/
+   80  ls
+   81  git add -A
+   82  git add -A
+   83  git commit -m "added an index.html file"
+   84  \tgit push origin master
+   85  cd git/
+   86  ls
+   87  cd codingdemo/
+   88  git add -A
+   89  git commit -m "initial commit, added an index.html file"
+   90  get push origin master
+   91  git push origin master
+   92  git push origin HEAD:master
+   93  git checkout -b header
+   94  ls
+   95  git add -A
+   96  git commit -m "adds a h1 to index.html"
+   97  git push origin header
+   98  git checkout master
+   99  git checkout branch
+  100  git pull
+  101  git chckout master
+  102  git chechout master
+  103  git checkout master
+  104  git pull
+  105  git checkout main
+  106  git pull
+  107  condo activate dev
+  108  conda activate dev
+  109  jupyter lab
+  110  conda activate dev
+  111  jupyter lab
+  112  conda deactivate
+  113  conda activate dev
+  114  jypyter lab
+  115  jupyter lab
+  116  jupyter lab
+  117  conda deactivate
+  118  cd ..
+  119  cd taos-macbook-pro-2
+  120  code ~/.bash_profile
+  121  echo $shell
+  122  echo $SHELL
+  123  export PATH=$PATH:/bin/zsh
+  124  export PATH=$PATH:/bin/sh
+  125  export PATH=$PATH:/bin/zsh
+  126  which node
+  127  code .
+  128  code .
+  129  code .
+  130  code .
+  131  which node
+  132  cd desktop
+  133  ls
+  134  cd test
+  135  ls
+  136  cd ..
+  137  cd ..
+  138  $ echo $PATH
+  139  code .
+  140  echo $PATH
+  141  ls /bin/
+  142   which node
+  143  export PATH=$PATH:/Users/taochen/.bash_profile
+  144  echo $PATH
+  145  echo $SHELL
+  146  cd bin
+  147  runtimeExecutable": "/usr/local/bin/node
+  148  cd /usr/local/bin/
+  149  ls
+  150  code .
+  151  cd..
+  152  cd ..
+  153  cd ..
+  154  cd ..
+  155  code .
+  156  sudo apt update && sudo apt install nodejs -y && sudo apt install npm -y\n
+  157  condo activate dev
+  158  conda activate dev
+  159  conda deactivate
+  160  sudo apt update && sudo apt install nodejs -y && sudo apt install npm -y\n
+  161  node ~v
+  162  node ~npm
+  163  brew update
+  164  brew install node
+  165  which node
+  166  export PATH=$PATH:/opt/homebrew/bin/node
+  167  echo $PATH
+  168  conda activate dev
+  169  jupyter lab
+  170  pwd
+  171  ls
+  172  cd desktop
+  173  ls
+  174  pwd
+  175  ls
+  176  mkdir FinTech-Workspace
+  177  ls
+  178  cd FinTech-Workspace
+  179  ls
+  180  cd ..
+  181  ls
+  182  pwd
+  183  cd ~
+  184  pwd
+  185  pwd
+  186  ls
+  187  cd desktop
+  188  ls
+  189  cd FinTech-workspace
+  190  ls
+  191  cd pythom_project
+  192  ls
+  193  cd python_project
+  194  ls
+  195  conda activate dev
+  196  python --version
+  197  code .
+  198  python hello_python.py
+  199  conda deactivate
+  200  cd .
+  201  cd .
+  202  cd .
+  203  ls
+  204  cd .
+  205  cd .
+  206  conda activate dev
+  207  cd .
+  208  cd.
+  209  conda deactivate
+  210  ls
+  211  cd ..
+  212  cd ..
+  213  cd ..
+  214  cd ..
+  215  cd /usr/local/bin
+  216  l,s
+  217  ls
+  218  cd
+  219  cd ~
+  220  ls
+  221  cd desktop
+  222  ls
+  223  cd fintech-workspace
+  224  ls
+  225  cd python_project
+  226  ls
+  227  activate condo dev
+  228  activate conda dev
+  229  ls
+  230  conda activate dev
+  231  python m1l3.py
+  232  ls
+  233  dls
+  234  ls
+  235  python m1l3.py
+  236  python m1l3.py
+  237  python m1l3.py
+  238  pwd
+  239  ls
+  240  cd 01_Hello_Variable_World
+  241  ls
+  242  cd unsolved
+  243  ls
+  244  python hello_variable_world.py
+  245  cd ..
+  246  cd ..
+  247  ls
+  248  python M1L3.py
+  249  ls
+  250  python test.py
+  251  fadsfda
+  252  ls
+  253  cd desktop
+  254  ls
+  255  cd fintech-workspace
+  256  ls
+  257  cd python_project
+  258  ls
+  259  conda activate dev
+  260  python 02_Nested_Conditionals
+  261  ls
+  262  cd 02_Nested_Conditionals
+  263  ls
+  264  cd unsolved
+  265  ls
+  266  python nested_conditionals.py
+  267  ls
+  268  cd desktop
+  269  ls
+  270  cd fintech-workspace
+  271  ls
+  272  cd python_project
+  273  ls
+  274  conda activate dev
+  275  python m1l3.py
+  276  s
+  277  ls
+  278  python 01_A_Definitive_Buy
+  279  cd 01_A_Definitive_Buy
+  280  ls
+  281  cd unsolved
+  282  ls
+  283  python a_definitive_buy.py
+  284  jypyter lab
+  285  jupyter lab
+  286  ls
+  287  cd desktop
+  288  ls
+  289  cd fintech-workspace
+  290  ls
+  291  cd python_project
+  292  ls
+  293  conda activate dev
+  294  jupyter lab
+  295  ls
+  296  cd desktop
+  297  ls
+  298  cd fintech-workspace
+  299  ls
+  300  cd python_project
+  301  ls
+  302  cd 02_Returned_Goods
+  303  ls
+  304  cd unsolved
+  305  ls
+  306  python returned_goods.py
+  307  cd ..
+  308  cd..
+  309  cd ..
+  310  ls
+  311  conda activate dev
+  312  jupyter lab
+  313  cd desktop
+  314  ls
+  315  cd fintech-workspace
+  316  ls
+  317  cd Python_Project
+  318  ls
+  319  cd 03_Split_Second_Homebuying_Part_2
+  320  cd unsolved
+  321  ls
+  322  conda activate dev
+  323  python split_second_part_2
+  324  python split_second_part_py
+  325  python split_second_part.py
+  326  ls
+  327  python split_second_part_2.py
+  328  pwd
+  329  cd ..
+  330  cd ..
+  331  pwd
+  332  ls
+  333  jupyter lab
+  334  ls
+  335  cd python_project
+  336  ls
+  337  cd 02_Returned_Goods
+  338  ls
+  339  cd unsolved
+  340  conda activate dev
+  341  ls
+  342  python returned_goods.py
+  343  pwd
+  344  cd ..
+  345  cd..
+  346  cd ..
+  347  cd ..
+  348  ls
+  349  python pathways_to_success.py
+  350  conda activate dev
+  351  ls
+  352  python pathways_to_success.py
+  353  pwd
+  354  ls
+  355  cd desktop
+  356  ls
+  357  cd FinTech-Workspace
+  358  ls
+  359  s
+  360  ls
+  361  cd Python_Project
+  362  ls
+  363  cd 02_Pathways_to_Success_Part_1
+  364  ls
+  365  cds unsolved
+  366  cd unsolved
+  367  ls
+  368  conda activate dev
+  369  python pathways_to_success.py
+  370  cd ..
+  371  cd ..
+  372  cd ..
+  373  ls
+  374  python pathways_to_success.py
+  375  ls
+  376  cd python_project
+  377  ls
+  378  jupyter lab
+  379  ls
+  380  python 01_Hello_Variable_World
+  381  ls
+  382  cd 03_Split_Second_Homebuying
+  383  ls
+  384  cd unsloved
+  385  cd unsolved
+  386  ls
+  387  python split_second_homebuying.py
+  388  cd ..
+  389  cd ~
+  390  pwd
+  391  ls
+  392  cd desktop
+  393  ls
+  394  cd fintech-workspace
+  395  ls
+  396  gti clone https://columbia.bootcampcontent.com/columbia-bootcamp/CU-VIRT-FIN-PT-03-2022-U-B.git
+  397  git clone https://columbia.bootcampcontent.com/columbia-bootcamp/CU-VIRT-FIN-PT-03-2022-U-B.git
+  398  ls
+  399  cd desktop
+  400  ls
+  401  cd github_upload
+  402  ls
+  403  conda activate dev
+  404  python main.py
+  405  cd ..
+  406  ls
+  407  ls
+  408  cd FinTech-Workspace
+  409  ls
+  410  python pathways_to_success.py
+  411  ls
+  412  cd desktop
+  413  ls
+  414  cd fintech-workspace
+  415  ls
+  416  conda activate dev
+  417  jupyter lab
+  418  ls
+  419  cd CU-VIRT-FIN-PT-03-2022-U-B
+  420  get fetch
+  421  git fetch
+  422  cd 
+  423  pwd
+  424  git --version
+  425  git config --list
+  426  ls
+  427  cd desktop
+  428  ls
+  429  cd github_upload
+  430  ls
+  431  conda activate dev
+  432  python main.py
+  433  ls
+  434  conda activate dev
+  435  python automated_equity_rounds.py
+  436  python
+  437  conda activate dev
+  438  ls
+  439  python pathways_to_success_part_2.py
+  440  conda activate dev
+  441  ls
+  442  python pathways_to_success_part_2.py
+  443  python pathways_to_success_part_2.py
+  444  python
+  445  cd desktop
+  446  ls
+  447  cd fintech-workspace
+  448  ls
+  449  conda activate dev
+  450  python pathways_to_success_part_2.py
+  451  code .
+  452  code .
+  453  code .
+  454  code .
+  455  python
+  456  conda install
+  457  conda update conda
+  458  ls
+  459  conda activate dev
+  460  python pathways_to_success.py
+  461  conda deactivate
+  462  conda update anaconda
+  463  python
+  464  python --version
+  465  python --version
+  466  conda activate dev
+  467  ls
+  468  python automated_equity_rounds.py
+  469  python
+  470  python
+  471  cd ..
+  472  cd ..
+  473  ls
+  474  cd 02_Loan_Qualifier_Filtering_Data
+  475  ls
+  476  cd unsolved
+  477  ls
+  478  python app.py
+  479  ls
+  480  cd Class_1_Activities    
+  481  ls
+  482  cd modular programming
+  483  cd Modular programming
+  484  cd Modular Programming
+  485  cd Modular Programming
+  486  pwd
+  487  ls
+  488  cd Class_1_Activities
+  489  ls
+  490  cd Modular_Programming
+  491  ls
+  492  python app.py
+  493  ls
+  494  python app.py
+  495  python -V
+  496  conda activate dev
+  497  pip install fire
+  498  dev
+  499  conda activate dev
+  500  ls
+  501  python loan_analyzer.py
+  502  cd ~
+  503  ls
+  504  cd desktop
+  505  ls
+  506  cd github_upload
+  507  ls
+  508  python pathways_to_success_part_2.py
+  509  ls
+  510  conda activate dev
+  511  ls
+  512  cd Python_Project
+  513  ls
+  514  python cli.py
+  515  cd desktop
+  516  ls
+  517  conda activate dev
+  518  ls
+  519  cd fintech-workspace
+  520  ls
+  521  python pathways_to_success.py
+  522  pip -V
+  523  pip install fire
+  524  pip install questionary
+  525  cd .
+  526  cd .
+  527  ls
+  528  pwd
+  529  ls
+  530  ]touch test.txt
+  531  touch test.txt
+  532  ls
+  533  rm test.txt
+  534  ls
+  535  mkdir test_folder
+  536  ls
+  537  cd test_folder
+  538  ls
+  539  rm -r
+  540  mkdir test
+  541  ls
+  542  rm -r
+  543  rm -r test
+  544  ls
+  545  cd ..
+  546  ls
+  547  rm -r test_folder
+  548  ls
+  549  fire -V
+  550  pip install fire
+  551  conda -V
+  552  ls
+  553  cd Python_Project
+  554  ls
+  555  python cli.py
+  556  python cli.py
+  557  jupyter lab
+  558  source /Users/taochen/opt/anaconda3/bin/activate
+  559  conda activate dev
+  560  ls
+  561  cd Python_Project
+  562  ls
+  563  python hello_python.py
+  564  python cli.py
+  565  ls
+  566  python cli.py
+  567  python cli_new.py
+  568  source /Users/taochen/opt/anaconda3/bin/activate
+  569  conda activate dev
+  570  ls
+  571  cd python_project
+  572  ls
+  573  python cli_py
+  574  python cli.py
+  575  python cli.py
+  576  python cli.py --pants = True
+  577  python cli.py --pants=True
+  578  python cli.py
+  579  python cli.py
+  580  source /Users/taochen/opt/anaconda3/bin/activate
+  581  conda activate dev
+  582  pip install fire install fire
+  583  ls
+  584  cd desktop
+  585  ls
+  586  cd fintech-workspace
+  587  ls
+  588  conda activate dev
+  589  conda install -c conda-forge questionary\n
+  590  $ pip install questionary
+  591  pip install questionary
+  592  pip install questionary install questionary
+  593  ls
+  594  cd cu-virt-fin-pt-03-2022-u-b
+  595  ls
+  596  git fetch
+  597  jupyter lab
+  598  ls
+  599  cd desktop
+  600  ls
+  601  cd fintech-workspace
+  602  jupyter lab
+  603  ls
+  604  cd desktop
+  605  ls
+  606  cd fintech-workspace
+  607  ls
+  608  conda actiavte dev
+  609  conda activate dev
+  610  ls
+  611  cd cu-virt-fin-pt-03-2022-u-b
+  612  git pull
+  613  source /Users/taochen/opt/anaconda3/bin/activate
+  614  conda activate dev
+  615  ls
+  616  cd python_project
+  617  ls
+  618  cd 02_Adding_questionary_to_Loan_Qualifier
+  619  ls
+  620  cd unsolved
+  621  ls
+  622  python app.py
+  623  source /Users/taochen/opt/anaconda3/bin/activate
+  624  conda activate dev
+  625  cd python_project
+  626  ls
+  627  cd 02_Adding_questionary_to_Loan_Qualifier
+  628  ls
+  629  cd unsolved
+  630  ls
+  631  python app.py --credit_score=750 --debt=5000 --income=20000
+  632   ls
+  633  python app.py
+  634  source /Users/taochen/opt/anaconda3/bin/activate
+  635  conda activate dev
+  636  cd python_projects
+  637  ls
+  638  cd Python_Project
+  639  ls
+  640  ls
+  641  cd 02_Adding_questionary_to_Loan_Qualifier
+  642  ls
+  643  cd unsolved
+  644  ls
+  645  python app.py
+  646  python app.py
+  647  python app.py
+  648  ls
+  649  python test.py
+  650  python app.py
+  651  python app.py
+  652  python app.py
+  653  python app.py
+  654  python app.py
+  655  python app.py
+  656  python test.py
+  657  python app.py
+  658  ls
+  659  python loan_analyzer.py
+  660  source /Users/taochen/opt/anaconda3/bin/activate
+  661  conda activate dev
+  662  cd python-project
+  663  ls
+  664  cd Python_Project
+  665  ls
+  666  cd 02_Adding_questionary_to_Loan_Qualifier
+  667  ls
+  668  cd unsolved
+  669  ls
+  670  python app.py
+  671  cd ..
+  672  cd solved
+  673  ls
+  674  python app.py
+  675  python app.py
+  676  cd ..
+  677  cd unsolved
+  678  ls
+  679  python app.py
+  680  python app.py
+  681  pwd
+  682  ls
+  683  ls
+  684  python app.py
+  685  python test.py
+  686  python app.py
+  687  python app.py
+  688  git --version
+  689  git config --list
+  690  git config --global user.name Tao Chen
+  691  git config --global user.email connorchen7@gmail.com
+  692  git config --list
+  693  git config --global user.name "Tao Chen"
+  694  git config --list
+  695  cd desktop
+  696  ls
+  697  ls
+  698  git clone git@github.com:TaoNYC/Test_Repo.git
+  699  ls
+  700  cd test_repo
+  701  ls
+  702  pwd
+  703  git status
+  704  git add README.md
+  705  git status
+  706  touch new_file.txt
+  707  ls
+  708  git status
+  709  git add new_file.txt
+  710  git status
+  711  git commit -m "editted REDADME and added new text file"
+  712  git status
+  713  git push
+  714  cd ..
+  715  ls
+  716  cd github_upload
+  717  ls
+  718  git status
+  719  cd ..
+  720  ls
+  721  git colone git@github.com:TaoNYC/columbia_fintech.git
+  722  git clone git@github.com:TaoNYC/columbia_fintech.git
+  723  git status
+  724  ls
+  725  cd columbia_fintech
+  726  ls
+  727  git status
+  728  git add loan_analyzer.py
+  729  git add github_upload/loan_analyzer.py
+  730  git add github_upload/inexpensive_loans.csv
+  731  git status
+  732  git commit -m "modified the assignment and added output csv file"
+  733  git status
+  734  git push
+  735  ls
+  736  conda activate dev
+  737  ls
+  738  cd ..
+  739  cd
+  740  ls
+  741  cd desktop
+  742  ls
+  743  cd fintech-workspace
+  744  ls
+  745  Python_Project
+  746  cd Python_Project
+  747  ls
+  748  cd ..
+  749  ls
+  750  cd cu-virt-fin-pt-03-2022-u-b
+  751  ls
+  752  git pull
+  753  jupyter lab
+  754  ls
+  755  cd 02-Financial-Applications-Python
+  756  ls
+  757  cd 2
+  758  ls
+  759  cd Activities
+  760  ls
+  761  cd 02_Stu_Build_ATM_Functions
+  762  ls
+  763  cd solved 
+  764  ls
+  765  cd atm
+  766  ls
+  767  python atm.py
+  768  pip list
+  769  conda activate atmdev3
+  770  pip list
+  771  ls
+  772  ls
+  773  ls
+  774  cd 02-Financial-Applications-Python
+  775  ls
+  776  cd 2
+  777  conda activate dev
+  778  ls
+  779  cd activities
+  780  ls
+  781  cd 01_Ins_ATM_Application
+  782  ls
+  783  conda env list
+  784  conda deactivate
+  785  conda create -n atmdev2 python=3.7 anaconda
+  786  conda env list
+  787  ls
+  788  cd solved
+  789  ls
+  790  cd atm
+  791  ls
+  792  conda activate atm2
+  793  conda env list
+  794  conda activate atmdev2
+  795  pip install .\requirement.txt
+  796  pip install .\requirements.txt
+  797  pip install .\requirements
+  798  python atm.py
+  799  pip install fire
+  800  pip list
+  801  conda activate dev
+  802  pip list
+  803   conda create -n atmdev3 python=3.7 anaconda\n
+  804  ls
+  805  cd 02-Financial-Applications-Python
+  806  ls
+  807  cd 2
+  808  ls
+  809  cd Activities
+  810  ls
+  811  cd 02_Stu_Build_ATM_Functions
+  812  ls
+  813  cd solved
+  814  ls
+  815  cd atm
+  816  ls
+  817  pip install -r .\requirements.txt
+  818  conda activate atmdev3
+  819  pip install -r requirements.txt
+  820  python atm.py
+  821  conda activate dev
+  822  python atm.py
+  823  conda deactivate
+  824  python atm.py
+  825  ls
+  826  ls
+  827  cd 02-Financial-Applications-Python
+  828  ls
+  829  cd 2
+  830  conda activate dev
+  831  ls
+  832  cd activities
+  833  ls
+  834  cd 01_Ins_ATM_Application
+  835  ls
+  836  conda env list
+  837  conda deactivate
+  838  conda create -n atmdev2 python=3.7 anaconda
+  839  conda env list
+  840  ls
+  841  cd solved
+  842  ls
+  843  cd atm
+  844  ls
+  845  conda activate atm2
+  846  conda env list
+  847  conda activate atmdev2
+  848  pip install .\requirement.txt
+  849  pip install .\requirements.txt
+  850  pip install .\requirements
+  851  python atm.py
+  852  pip install fire
+  853  pip list
+  854  conda activate dev
+  855  pip list
+  856   conda create -n atmdev3 python=3.7 anaconda\n
+  857  ls
+  858  cd 02-Financial-Applications-Python
+  859  ls
+  860  cd 2
+  861  ls
+  862  cd Activities
+  863  ls
+  864  cd 02_Stu_Build_ATM_Functions
+  865  ls
+  866  cd solved
+  867  ls
+  868  cd atm
+  869  ls
+  870  pip install -r .\requirements.txt
+  871  conda activate atmdev3
+  872  pip install -r requirements.txt
+  873  python atm.py
+  874  conda activate dev
+  875  python atm.py
+  876  conda deactivate
+  877  python atm.py
+  878  ls
+  879  cd Challenge_1
+  880  ls
+  881  python loan_analyzer.py
+  882  python loan_analyzer.py
+  883  cd..
+  884  ls
+  885  cd ..
+  886  ls
+  887  cd ..
+  888  ls
+  889  cd columbia_fintech
+  890  ls
+  891  add -a
+  892  git add -a
+  893  git status
+  894  git add -A
+  895  git status
+  896  git commit -m "fixed a typo of variable(remaining_month) and added some comments & README"
+  897  git push
+  898  git status
+  899  cd ..
+  900  cd columbia_fintech
+  901  ls
+  902  cd Challenge_1
+  903  ls
+  904  python loan_analyzer.py
+  905  python loan_analyzer.py
+  906  cd ..
+  907  ls
+  908  git status
+  909  git add -A
+  910  git status
+  911  git commit -m "changed folder name to 'Challenge_1' and added README file accordlingly"
+  912  git push
+  913  pip --version
+  914  python --version
+  915  ls
+  916  git status
+  917  git add -A
+  918  git status
+  919  git commit -m "added README file and updated one variale name to be more descriptive"
+  920  git push
+  921  conda activate
+  922  conda activate dev
+  923  conda list pandas
+  924  conda list jupyterlab
+  925  conda info --envs
+  926  conda list
+  927  jupyerlab
+  928  jupyer lab
+  929  jupyter lab
+  930  ls
+  931  python loan_analyzer.py
+  932  source /Users/taochen/opt/anaconda3/bin/activate
+  933  conda activate dev
+  934  ls
+  935  python app.py
+  936  python app.py
+  937  cd ..
+  938  ls
+  939  git status
+  940  git status
+  941  git commnet -A
+  942  git commnet -A
+  943  git commit -A
+  944  git status
+  945  git add -A
+  946  git status
+  947  git commit -m "Initial Challenge_2 commit"
+  948  git push
+  949  source /Users/taochen/opt/anaconda3/bin/activate
+  950  conda activate dev
+  951  conda run -n dev --no-capture-output --live-stream python /Users/taochen/Desktop/columbia_fintech/Challenge_2/app.py
+  952  source /Users/taochen/opt/anaconda3/bin/activate
+  953  conda activate dev
+  954  conda run -n dev --no-capture-output --live-stream python /Users/taochen/Desktop/columbia_fintech/Challenge_2/app.py
+  955  ls
+  956  python app.py
+  957  python app.py
+  958  python app.py
+  959  python app.py
+  960  python app.py
+  961  python app.py
+  962  python app.py
+  963  python app.py
+  964  git status
+  965  git add -A
+  966  git status
+  967  git commit -m"created function to save qualifying loans to csv file"
+  968  git push
+  969  ls
+  970  touch README.md
+  971  ls
+  972  git status
+  973  cd ..
+  974  git status
+  975  git status
+  976  git status
+  977  ls
+  978  cd challenge_2
+  979  ls
+  980  python app.py
+  981  cd ..
+  982  git status
+  983  git add -A
+  984  git status
+  985  git commit -m "added save_csv funition module in fileio file under untils folder"
+  986  git push
+  987  ls
+  988  cd Challenge_2
+  989  ls
+  990  python app.py
+  991  python app.py
+  992  python app.py
+  993  python app.py
+  994  python app.py
+  995  cd..
+  996  cd ..
+  997  git status
+  998  git add -A
+  999  git status
+ 1000  git commit -m "added CLI of asking user whether he/she  wants to save results to csv"
+ 1001  git push
+ 1002  cd ..
+ 1003  ls
+ 1004  cd FinTech-Workspace
+ 1005  ls
+ 1006  cd CU-VIRT-FIN-PT-03-2022-U-B
+ 1007  ls
+ 1008  git pull
+ 1009  git pull
+ 1010  cd ..
+ 1011  cd ..
+ 1012  ls
+ 1013  cd columbia_fintech
+ 1014  ls
+ 1015  cd Challenge_2
+ 1016  ls
+ 1017  pythong app.py
+ 1018  python app.py
+ 1019  python app.py
+ 1020  python app.py
+ 1021  python app.py
+ 1022  python app.py
+ 1023  python app.py
+ 1024  python app.py
+ 1025  git status
+ 1026  git add -A
+ 1027  git status
+ 1028  git commit -m "added CLI of - if no qulifying loan, telling user that and exit without saving"
+ 1029  git push
+ 1030  python app.py
+ 1031  git status
+ 1032  git add -A
+ 1033  git status
+ 1034  git commit -M "added CLI - ask user to type in the output path (csv)"
+ 1035  git commit -m "added CLI - ask user to type in the output path (csv)"
+ 1036  git push
+ 1037  ls
+ 1038  python app.py
+ 1039  python app.py
+ 1040  python app.py
+ 1041  git status
+ 1042  git add -A
+ 1043  git status
+ 1044  git commit -m "switched 2 eles-if conditions/logics (0 loan found vs whether to save output)"
+ 1045  git push
+ 1046  git status
+ 1047  git add -A
+ 1048  git status
+ 1049  git commit -m "modified comments"
+ 1050  git push
+ 1051  history 50 > termimnal_history.txt

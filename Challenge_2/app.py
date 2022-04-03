@@ -13,8 +13,10 @@ import fire
 import questionary
 from pathlib import Path
 
+# Created new save_csv function in filoio.py
 from qualifier.utils.fileio import load_csv, save_csv
 
+# Due to DRY, Two ratios and filters functions were written into functions and saved under utils folder
 from qualifier.utils.calculators import (
     calculate_monthly_debt_ratio,
     calculate_loan_to_value_ratio,
@@ -25,14 +27,14 @@ from qualifier.filters.credit_score import filter_credit_score
 from qualifier.filters.debt_to_income import filter_debt_to_income
 from qualifier.filters.loan_to_value import filter_loan_to_value
 
-
+# function load_bank_data (to be run later in main fucntion: run()) is defined in order to load data from csv file (specifiied by user) into bank_data 
 def load_bank_data():
     """Ask for the file path to the latest banking data and load the CSV file.
 
     Returns:
         The bank data from the data rate sheet CSV file.
     """
-
+    # Below asking user to input file path of the input csv file
     csvpath = questionary.text("Enter a file path to a rate-sheet (.csv):").ask()
     csvpath = Path(csvpath)
     if not csvpath.exists():
@@ -40,7 +42,7 @@ def load_bank_data():
 
     return load_csv(csvpath)
 
-
+# Below function is to use questionary to ask user to input applicant's info (Credi_score, Debt, income, etc...)
 def get_applicant_info():
     """Prompt dialog to get the applicant's financial information.
 
@@ -49,7 +51,7 @@ def get_applicant_info():
     """
 
     credit_score = questionary.text("What's your credit score?").ask()
-    debt = questionary.text("What's your curren55t amount of monthly debt?").ask()
+    debt = questionary.text("What's your current amount of monthly debt?").ask()
     income = questionary.text("What's your total monthly income?").ask()
     loan_amount = questionary.text("What's your desired loan amount?").ask()
     home_value = questionary.text("What's your home value?").ask()
@@ -62,7 +64,7 @@ def get_applicant_info():
 
     return credit_score, debt, income, loan_amount, home_value
 
-
+# Below function is use Bank_data (loaded from csv file) and client info (credit score etc) for filtering purpose, and return bank_data_filtered as qualifying loans
 def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_value):
     """Determine which loans the user qualifies for.
 
@@ -103,7 +105,7 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
 
     return bank_data_filtered
 
-
+# Below function is to save the qualifying loans to output csv file if found any and also user choose to save
 def save_qualifying_loans(qualifying_loans):
     """Saves the qualifying loans to a CSV file.
 
@@ -113,23 +115,23 @@ def save_qualifying_loans(qualifying_loans):
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
 
-    # Below is asking user whether he want to save results and save answer to variable 'whether_to_save_results'
+    # Below variable is defined to be used later in if-el statment to determine whether printing exit msg or asking user if he wants to save result
     number_of_qualified_loans = len(qualifying_loans)
     print(f'the number of qualified loans is {number_of_qualified_loans}')
 
-
+    # Below header is defined as initial Bank_data imported from input csv file has no header (header was skipped by function Next() inside Load_csv function in fileio.csv )
     header_output_file = ['Lender','Max Loan Amount','Max LTV','Max DTI','Min Credit Score','Interest Rate']
     
     # The logice here is: first check check if number of qualified loans is greater than 0, if not, print exit statement
-    # If qualifited loans greater than 0, check if user wants to save the ouput, if not, print exit statement
+    # If nubmer of qualifited loans is greater than 0, check if user wants to save the ouput, if not, print exit statement
     # if user wants to save the ouput, ask user to type in output path (csv) and save the results
-    # variable "whether_to_save_results" (take user input) is defined so that it can be used in if-else statement later that if it equals 0, exit and informing the client there is no loan found
-
+    
+    # variable "save_results" (take user input) is defined so that it can be used in if-else statement later that if it equals 0, exit and informing the client there is no loan found
 
     if number_of_qualified_loans >0:
-        whether_to_save_results = questionary.confirm("Would you like to save the result?").ask()
+        save_results = questionary.confirm("Would you like to save the result?").ask()
     # Question: do I need 'return' here just like load_bank_data function above?
-        if whether_to_save_results == True:
+        if save_results == True:
             output_path = questionary.text("Enter a file path to save the results (.csv):").ask()
             save_csv(qualifying_loans,output_path,header_output_file)
         else: 
