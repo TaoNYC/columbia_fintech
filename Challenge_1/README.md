@@ -24,6 +24,7 @@ Upon launching the loan qualifier application you should see beow output in the 
 
 <img width="417" alt="Screen Shot 2022-03-26 at 11 26 02 AM" src="https://user-images.githubusercontent.com/99616004/160246836-523ec061-0ac4-451c-8ba7-5c0de03a88dc.png">
 
+
 ## Contributors
 
 Brought to you by TaoNYC.
