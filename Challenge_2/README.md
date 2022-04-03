@@ -36,9 +36,7 @@ python app.py
 By finishing launching the app application you should see beow output in the csv file.
 
 <img width="706" alt="image" src="https://user-images.githubusercontent.com/99616004/161436456-40f31e4a-6427-449f-a9da-e33e925e62bc.png">
-
-This section should include screenshots, code blocks, or animations explaining how to use your project.
-
+git 
 ---
 
 ## Contributors
