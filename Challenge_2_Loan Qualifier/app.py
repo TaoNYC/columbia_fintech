@@ -117,6 +117,9 @@ def save_qualifying_loans(qualifying_loans):
 
     # Below variable is defined to be used later in if-el statment to determine whether printing exit msg or asking user if he wants to save result
     number_of_qualified_loans = len(qualifying_loans)
+    if number_of_qualified_loans>0:
+        found_qulifying_loan = True
+    else: found_qulifying_loan = False
     print(f'the number of qualified loans is {number_of_qualified_loans}')
 
     # Below header is defined as initial Bank_data imported from input csv file has no header (header was skipped by function Next() inside Load_csv function in fileio.csv )
@@ -128,18 +131,17 @@ def save_qualifying_loans(qualifying_loans):
     
     # variable "save_results" (take user input) is defined so that it can be used in if-else statement later that if it equals 0, exit and informing the client there is no loan found
 
-    if number_of_qualified_loans >0:
+    if not found_qulifying_loan:
+        sys.exit("Sorry, there are no qualifying loans!")
+
+    else: 
         save_results = questionary.confirm("Would you like to save the result?").ask()
-    # Question: do I need 'return' here just like load_bank_data function above?
+        # Question: do I need 'return' here just like load_bank_data function above?
         if save_results == True:
             output_path = questionary.text("Enter a file path to save the results (.csv):").ask()
             save_csv(qualifying_loans,output_path,header_output_file)
         else: 
-            print(f'EXIT: User does not wish to save the results')
-
-    else: 
-        print(f'Sorry, we did not find any qualifying loans, modify input and try again')
-    
+            print(f'EXIT: User does not wish to save the results')    
 
 
 def run():
