@@ -1,4 +1,4 @@
-# Crypto Arbitrade 
+# Crypto Arbitrage 
 
 This is a Python application allowing users to extract, plot and explore arbitrage oppertunities of crypto asset price difference between 2 exchangs: Bitstamp vs. Coinbase
 
