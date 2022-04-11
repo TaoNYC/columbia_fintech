@@ -31,7 +31,7 @@ Alerternatively you can simply just install requirement file included in this fo
 
 ## Usage
 
-Step 1: run App.py
+Step 1: run crypto_arbitrage.py
 ```python
 python crypto_arbitrage.py
 ```
